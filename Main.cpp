@@ -24,7 +24,13 @@ int main(){
 	cout<<"2. Tren"<<endl;
 	cin>>escenario;
 	if(escenario==1){
-
+		int tipoBomba;
+		cout<<"**********Tipos de Bomba**********"<<endl;
+		cout<<"1. Bomba Normal"<<endl;
+		cout<<"2. Bomba Espina"<<endl;
+		cout<<"3. Bomba V"<<endl;
+		cin>>tipoBomba;
+		Visible* Invisible= new Visible(nombreE, 3, tipoBomba);
 	}else if(escenario==2){
 
 	}
