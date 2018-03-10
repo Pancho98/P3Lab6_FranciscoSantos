@@ -32,7 +32,32 @@ int main(){
 		cin>>tipoBomba;
 		Visible* Invisible= new Visible(nombreE, 3, tipoBomba);
 	}else if(escenario==2){
-
+		Tren* tren = new Tren(7, 4); 
 	}
+	/*initscr();
+	noecho();
+	WINDOW* win = newwin(50,50,1,1);
+	keypad(stdscr,TRUE);
+	cbreak();
+	Escenarios* game = new Tren("Carlos");
+	Item*** tab = game->getTablero();
+	getch();
+	nodelay(stdscr,TRUE);
+	clear();
+	halfdelay(5);
+	refresh();
+
+	for(int i = 0; i < 11; i++){
+
+		for(int j = 0; j < 13; j++){
+	
+			printw("%c",tab[i][j]->getIdent());
+			printw("%c",' ');
+		}
+		printw("%s","\n");
+	}
+	getch();*/
+
+
 	return 0;
 }
